@@ -1,0 +1,174 @@
+<html>
+<body>
+<style type="text/css">
+	body{
+		background-color:#E6E3BB;
+	}
+	nav a {
+		text-decoration: none;
+		color: #FDFFE3;
+	}
+	nav ul ul li{
+		float:left;
+		clear:both;
+		width:100%; 
+		top:-1000px;
+		position:relative;
+		display:none;
+		-webkit-transition: top .5s linear;
+	}
+	nav ul{
+		margin: 0px;
+		padding: 0px;
+		position:relative;
+	}
+	nav ul ul{
+		margin-left:10px;
+		position:absolute;
+		overflow:hidden;
+	}
+	nav ul li{
+		float:left;
+	}
+	nav ul li a{
+		padding: 15px;
+		padding-bottom:7px;
+		background-color:#D3741C;
+		-webkit-border-top-right-radius:0px;
+		-webkit-border-top-left-radius:10px;
+		-webkit-border-bottom-right-radius:10px;
+		margin-left:10px;
+		display:block;
+	}
+	nav ul li li a{
+		padding: 5px 10px 5px 10px;
+		-webkit-border-radius:0px;
+		margin: 0px;
+	}
+	nav ul li ul li:first-child a{
+		-webkit-border-top-right-radius:15px;
+	}
+	nav ul li ul li:last-child a{
+		-webkit-border-bottom-left-radius:15px;
+		-webkit-border-bottom-right-radius:15px;
+		padding-bottom:10px;
+	}
+	nav ul li:hover li{
+		top:0px;
+		display:inline;
+		-webkit-animation:topSlideIn .5s linear;
+	}
+	nav ul li:hover a{
+		background-color:#8E4423;
+		-webkit-animation:backgroundIn .4s linear;
+	}
+	nav ul li:hover a{
+		-webkit-border-bottom-right-radius:0px;
+		-webkit-border-top-right-radius:10px;
+		-webkit-transition: all .3s linear;
+	}
+	nav ul li:hover li a{
+		-webkit-border-bottom-right-radius:0px;
+		-webkit-border-top-right-radius:0px;
+		-webkit-transition: all .3s linear;
+	}
+	nav ul li li:hover a{
+		-webkit-animation:backgroundIn .4s linear;
+		background-color:#C6491A;
+		-webkit-transition: all .4s linear;
+	}
+	nav ul li a{
+		-webkit-transition: all .4s linear;
+	}
+	@-webkit-keyframes backgroundIn {
+		from{
+			background-color:#D3741C;
+		}
+		to{
+			background-color:#8E4423;
+		}
+	}
+	@-webkit-keyframes topSlideIn {
+		0%{
+			top:-1000px;
+		}
+		100%{
+			top:0px;
+		}
+	}
+
+
+</style>
+<h2>Build Your Own Animal</h2>
+<nav>
+	<ul>
+		<li>
+			<a href="javascript:;">Head</a>
+			<ul>
+				<li><a href="javascript:;">Lion</a></li>
+				<li><a href="javascript:;">Tiger</a></li>
+				<li><a href="javascript:;">Bear</a></li>
+				<li><a href="javascript:;">The Mighty and Magnificent Penguin</a></li>
+				<li><a href="javascript:;">Giraffe</a></li>
+				<li><a href="javascript:;">Pheonix</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="javascript:;">Torso</a>
+			<ul>
+				<li><a href="javascript:;">Lion</a></li>
+				<li><a href="javascript:;">Tiger</a></li>
+				<li><a href="javascript:;">Bear</a></li>
+				<li><a href="javascript:;">The Mighty and Magnificent Penguin</a></li>
+				<li><a href="javascript:;">Giraffe</a></li>
+				<li><a href="javascript:;">Pheonix</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="javascript:;">Arms</a>
+			<ul>
+				<li><a href="javascript:;">Lion</a></li>
+				<li><a href="javascript:;">Tiger</a></li>
+				<li><a href="javascript:;">Bear</a></li>
+				<li><a href="javascript:;">The Mighty and Magnificent Penguin</a></li>
+				<li><a href="javascript:;">Giraffe</a></li>
+				<li><a href="javascript:;">Pheonix</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="javascript:;">Legs</a>
+			<ul>
+				<li><a href="javascript:;">Lion</a></li>
+				<li><a href="javascript:;">Tiger</a></li>
+				<li><a href="javascript:;">Bear</a></li>
+				<li><a href="javascript:;">The Mighty and Magnificent Penguin</a></li>
+				<li><a href="javascript:;">Giraffe</a></li>
+				<li><a href="javascript:;">Pheonix</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="javascript:;">Back</a>
+			<ul>
+				<li><a href="javascript:;">Lion</a></li>
+				<li><a href="javascript:;">Tiger</a></li>
+				<li><a href="javascript:;">Bear</a></li>
+				<li><a href="javascript:;">The Mighty and Magnificent Penguin</a></li>
+				<li><a href="javascript:;">Giraffe</a></li>
+				<li><a href="javascript:;">Pheonix</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="javascript:;">Front</a>
+			<ul>
+				<li><a href="javascript:;">Lion</a></li>
+				<li><a href="javascript:;">Tiger</a></li>
+				<li><a href="javascript:;">Bear</a></li>
+				<li><a href="javascript:;">The Mighty and Magnificent Penguin</a></li>
+				<li><a href="javascript:;">Giraffe</a></li>
+				<li><a href="javascript:;">Pheonix</a></li>
+			</ul>
+		</li>
+	</ul>
+</nav>
+</body>
+</html>
